@@ -21,9 +21,9 @@
 				if(new_guess==comp_choice){
 					$('#message').text("You got the answer!");
 				}else if(new_guess<comp_choice){
-					$('#message').text("Hmmm Lower!");
+					$('#message').text("Hmmm You are Lower!");
 				}else if(new_guess>comp_choice){
-					$('#message').text("Hmmm Higher!");
+					$('#message').text("Hmmm You are Higher!");
 				
 			}
 		}
